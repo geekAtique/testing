@@ -13,3 +13,10 @@ function play() {
 
      console.log("this is a play function defined") ; 
 }
+
+
+const arr = [1,2,3,4,5] ;
+
+const result = arr.map(item => item*2) ;
+
+console.log(result) ; 
